@@ -1,2 +1,13 @@
 # node-movie
-nodejs
+
+npm install
+
+```
+npm install
+```
+
+bowser install && preen
+
+```
+npm run prepare
+```

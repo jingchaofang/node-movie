@@ -1,0 +1,27 @@
+{
+  "name": "movie",
+  "description": "node movie",
+  "main": "app.js",
+  "authors": [
+    "jingchaofang"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jingchaofang/node-movie",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  },
+  "preen": {
+    "jquery": ["dist/*.js"],
+    "bootstrap": ["dist/**/*.+(css|js)"]
+  }
+}
